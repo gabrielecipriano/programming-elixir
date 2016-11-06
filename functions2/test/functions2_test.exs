@@ -5,6 +5,7 @@ defmodule Functions2Test do
   def fizzBuzz(0, 0, _), do: "FizzBuzz."
   def fizzBuzz(0, _, _), do: "Fizz."
   def fizzBuzz(_, 0, _), do: "Buzz."
+  def fizzBuzz(_, _, x), do: x
 
   test "Fizz" do
     assert fizzBuzz(0, 34, 25) == "Fizz."
@@ -16,5 +17,9 @@ defmodule Functions2Test do
 
   test "FizzBuzz" do
     assert fizzBuzz(0, 0, 145) == "FizzBuzz."
+  end
+
+  test "third number" do
+    assert fizzBuzz(232, 567, 999) == 999
   end
 end
