@@ -11,7 +11,7 @@ defmodule Functions3Test do
   def speak(_, 0, _), do: "Buzz."
   def speak(_, _, x), do: x
 
-  test "the truth" do
+  test "10..16" do
     assert fizzBuzz(10) == "Buzz."
     assert fizzBuzz(11) == 11
     assert fizzBuzz(12) == "Fizz."
