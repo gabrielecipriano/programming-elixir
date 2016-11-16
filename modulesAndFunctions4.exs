@@ -1,3 +1,5 @@
+ExUnit.start
+
 defmodule ModulesAndFunctions4Test do
   use ExUnit.Case
 

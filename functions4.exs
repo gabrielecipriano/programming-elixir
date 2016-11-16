@@ -1,6 +1,7 @@
+ExUnit.start
+
 defmodule Functions4Test do
   use ExUnit.Case
-  doctest Functions4
 
   def prefix(prefix) do
       (fn(suffix) -> "#{prefix} #{suffix}" end)

@@ -1,6 +1,7 @@
+ExUnit.start
+
 defmodule Functions2Test do
   use ExUnit.Case
-  doctest Functions2
 
   def fizzBuzz(0, 0, _), do: "FizzBuzz."
   def fizzBuzz(0, _, _), do: "Fizz."

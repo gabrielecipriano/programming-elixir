@@ -1,6 +1,7 @@
+ExUnit.start
+
 defmodule Functions3Test do
   use ExUnit.Case
-  doctest Functions3
 
   def fizzBuzz(n) do
     speak(rem(n, 3), rem(n, 5), n)
