@@ -6,7 +6,7 @@ defmodule ModulesAndFunctions4Test do
   def gcd(x, 0), do: x
   def gcd(x, y), do: gcd(y, rem(x,y))
 
-  test "sum" do
+  test "gcd" do
     assert gcd(5, 0) == 5
     assert gcd(0, 3) == 3
     assert gcd(10, 6) == 2
